@@ -1,0 +1,27 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = "postgresql://postgres:postgres@host.docker.internal:5433/bonnie"
+}
+
+model asset_uploads {
+  asset_hash              String   @db.VarChar
+  asset_type              String   @db.VarChar
+  asset_uuid              String   @db.VarChar
+  created_at              DateTime @default(now()) @db.Timestamp(6)
+  asset_inventory_item_id String?  @db.VarChar
+
+  @@id([asset_hash, asset_type], map: "asset_uploads_pk")
+}
+
+model tts {
+  body        String @db.VarChar
+  voice       String @db.VarChar
+  uuid        String @db.VarChar
+  duration_ms Int?
+
+  @@id([body, voice])
+}
