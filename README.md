@@ -1,4 +1,8 @@
+A Second Life bot enabling text-to-speech applications. Let us know which "Bonnie" features you'd like us to release next!
+
 # Running your own Bonnie (TTS) instance
+
+Account with free sound clip uploads highly recommended!
 
 Install Podman
 https://podman.io/docs/installation
