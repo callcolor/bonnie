@@ -9,6 +9,9 @@ Account with free sound clip uploads highly recommended!
 Install Podman
 https://podman.io/docs/installation
 
+Setup Podman Compose
+https://stackoverflow.com/a/78396855
+
 Copy the example config file and edit it to your needs.
 `cp config.example.ts config.ts`
 
