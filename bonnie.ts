@@ -24,7 +24,7 @@ const bonnie = async () => {
 
   setTimeout(async () => {
     closeOnDisconnect(bot);
-    sit(bot, new UUID("79ab4605-ac3b-cd83-ee3e-b3b0ce54f9e8"));
+    // sit(bot, new UUID("79ab4605-ac3b-cd83-ee3e-b3b0ce54f9e8"));
   }, 20000);
 
   botCommands(bot);

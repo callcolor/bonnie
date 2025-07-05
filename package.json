@@ -20,7 +20,8 @@
     "prisma:db:push": "npx prisma db push",
     "podman:up": "podman compose up --detach",
     "podman:build": "podman build -t bonnie .",
-    "podman:run": "podman run --name bonnie bonnie"
+    "podman:run": "podman run --name bonnie bonnie",
+    "podman:restart": "podman rm -f bonnie && podman run --name bonnie bonnie"
   },
   "devDependencies": {
     "@jest/globals": "^29.7.0",

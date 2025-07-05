@@ -11,5 +11,12 @@
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "cSpell.words": ["healthcheck", "isready", "metaverse", "Prehashed"]
+  "cSpell.words": [
+    "healthcheck",
+    "isready",
+    "libespeak",
+    "metaverse",
+    "mycroft",
+    "Prehashed"
+  ]
 }

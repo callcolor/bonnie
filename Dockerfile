@@ -3,6 +3,11 @@ FROM node:18.20.8
 # Set the working directory
 WORKDIR /usr/src/app
 
+# Install necessary packages
+RUN apt update
+RUN apt install libespeak-ng1 python3-pip sox ffmpeg -y
+RUN pip install mycroft-plugin-tts-mimic3[all] --break-system-packages
+
 # Copy package.json and package-lock.json
 COPY package*.json ./
 
