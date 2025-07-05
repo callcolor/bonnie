@@ -1,4 +1,6 @@
-A Second Life bot enabling text-to-speech applications. Let us know which "Bonnie" features you'd like us to release next!
+A Second Life bot enabling text-to-speech applications. 
+
+Let us know which "Bonnie" features you'd like us to release next!
 
 # Running your own Bonnie (TTS) instance
 
