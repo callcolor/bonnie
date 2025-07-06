@@ -4,7 +4,9 @@ Let us know which "Bonnie" features you'd like us to release next!
 
 # Running your own Bonnie (TTS) instance
 
-Account with free sound clip uploads highly recommended!
+Sign up for Second Life.  
+Account with free sound clip uploads highly recommended!  
+https://join.secondlife.com/
 
 Install Podman
 https://podman.io/docs/installation
