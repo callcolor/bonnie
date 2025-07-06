@@ -26,10 +26,10 @@ Build and run the Bonnie application.
 
 # Create the in-world Script
 
-Copy the contents of ./LSL/text-to-speech.lsl into a new script.
-Replace the bonnieBelle86 value with your bot UUID.
-Replace the secret value with the value you created in config.ts.
-Speak in local chat.
+Copy the contents of ./LSL/text-to-speech.lsl into a new script.  
+Replace the bonnieBelle86 value with your bot UUID.  
+Replace the secret value with the value you created in config.ts.  
+Speak in local chat.  
 
 # Teardown
 
