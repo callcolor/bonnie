@@ -8,10 +8,10 @@ Sign up for Second Life.
 Account with free sound clip uploads highly recommended!  
 https://join.secondlife.com/
 
-Install Podman
+Install Podman.  
 https://podman.io/docs/installation
 
-Setup Podman Compose
+Setup Podman Compose.  
 https://stackoverflow.com/a/78396855
 
 Copy the example config file and edit it to your needs.  
